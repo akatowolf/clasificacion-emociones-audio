@@ -92,3 +92,7 @@ env/
 
 # Mypy cache
 .mypy_cache/
+
+# Ignorar archivos grandes
+data/raw/mesd/*
+!data/raw/mesd/*.dvc
